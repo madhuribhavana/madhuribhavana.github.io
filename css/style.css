@@ -1,11 +1,11 @@
-body{overflow-x:hidden;font-family:"Avenir Next","Helvetica Neue",Helvetica,Arial,sans-serif}
+body{overflow-x:hidden;font-family:"Avenir Next", "Open Sans", "Helvetica Neue",Helvetica,Arial,sans-serif}
 .text-muted{color:#c0c0c0}
 .text-primary{color:#7a7a7a}p{font-size:14px;line-height:1.75}
 p.large{font-size:16px}
 a,a:hover,a:focus,a:active,a.active{outline:0}
 a{color:#7a7a7a}
 a:hover,a:focus,a:active,a.active{color:#7a7a7a}
-h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:200}
+h1,h2,h3,h4,h5,h6{font-family:Montserrat, "Open Sans", "Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:200}
 
 .img-centered{margin:0 auto}
 .bg-light-gray{background-color:#f7f7f7}
