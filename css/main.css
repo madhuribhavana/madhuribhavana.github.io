@@ -439,8 +439,8 @@ body #nav {
 }
 
 .card-circle {
-	height: 48px;
-	width: 48px;
+	height: 100px;
+	width: 100px;
 	border-radius: 100px;
 	background-color:white;
 	margin-bottom: 12px;
