@@ -67,9 +67,11 @@ p {
 strong {
 	font-weight: 500;
 }
+
 p a {
 	color:#4080FF;
 }
+
 
 blockquote {
   color: #4B4F56;
@@ -996,6 +998,31 @@ keyframes inf-bounce {
 		margin: 0px 19px 0 0;
 		display:inline-block;
 	}
+}
+
+.collapsible {
+  background-color: #FCFCFC;
+  color: #4080FF;
+  cursor: pointer;
+  /*padding: 18px;*/
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+  font-family: mycustomfont;
+  line-height:1.5;
+}
+
+.active, .collapsible:hover {
+  opacity: .7;
+}
+
+.collapsible-content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
 }
 
 @media only screen and (max-width: 363px) {
