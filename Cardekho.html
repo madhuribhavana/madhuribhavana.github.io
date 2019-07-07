@@ -85,12 +85,20 @@
                <img class="container--full-width" src="./images/cardekho/c0.png">
 
 <!-- Description -->
+               <p style="font-size:20px;line-height:1.5;margin-top:10%;margin-bottom:5%">In order to achieve design goals, we conducted contextual interviews with users and stakeholders, visited car showrooms to shadow car buyers and conducted card-sorting exercises. This research was used to build behavioural archetypes of car buyers.</p>
 
-               <p style="font-size:20px;line-height:1.5;margin-top:8%">In order to achieve design goals, we conducted contextual interviews with users and stakeholders, visited car showrooms to shadow car buyers and conducted card-sorting exercises. This research was used to build behavioural archetypes of car buyers. We also studied the quantitative data to understand to come to conclusions about the pain points in individual features of the website.</p>
+               <button class="collapsible">Behavioural Archetypes</button>
 
-               <p style="font-size:20px;line-height:1.5">The research was used to improve the usability of each page and feature in the website. Based on the behavioural archetypes, we came with personalized flows of each feature.</p>
+                <div class="collapsible-content">
+                  <img style="margin-top:10%" class="container--full-width" src="./images/cardekho/c1.png">
+                  <img style="margin-top:10%" class="container--full-width" src="./images/cardekho/c2.png"> 
+                  <img style="margin-top:10%" class="container--full-width" src="./images/cardekho/c3.png"> 
+                  <img style="margin-top:10%" class="container--full-width" src="./images/cardekho/c4.png">  
+                </div>
 
-               <p style="font-size:20px;line-height:1.5">Apart from the UX, all parts of the webpage and app had to be made consistent. I happened to refine the visual style guide and worked with the UI Designers to re-design components.</p>
+               <p style="font-size:20px;line-height:1.5;margin-top:5%;">We also studied the quantitative data such as user conversions to various pages, NPS scores, in-site surveys etc. to understand to come to conclusions about the pain points in individual features of the website. The research was used to improve the usability of each page and feature in the website. Based on the behavioural archetypes, we came with personalized flows for each feature.</p>
+
+               <p style="font-size:20px;line-height:1.5">Apart from the UX, all parts of the webpage and app had to be made consistent, where I led the design of the visual style guide and worked with the Visual Designers to re-design and create components.</p>
 
 
                <h2 style="margin-top:2%; color: #999">More about my experience - Coming Soon..</h2>
@@ -116,6 +124,24 @@
             </p>
          </div>
    </div>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
 
 </body>
 </html>
