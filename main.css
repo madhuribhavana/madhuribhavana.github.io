@@ -319,7 +319,7 @@ body #nav {
   background-position: center;
   background-repeat: no-repeat;
 	margin-bottom:20px;
-  
+
 }
 
 .card-image--size-185{
@@ -511,6 +511,7 @@ body #nav {
 
 .card .is-notShownIfHover{
 	display: inline-block !important;
+  font-size: 10px;
 }
 
 .card .is-shownIfHover{
@@ -518,14 +519,14 @@ body #nav {
 }
 
 .card-tag {
-	background: #4080FF;
+background: #4080FF;
+margin: 0 0.25rem 0.25rem 0;
 padding-left: 10px;
 padding-right: 10px;
-margin-bottom: 20px;
 border-radius: 70px;
 font-weight: 700;
 color: white;
-font-size: 11px;
+font-size: 10px;
 }
 
 .card-medium {

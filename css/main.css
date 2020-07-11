@@ -2,12 +2,38 @@
 
 @font-face {
     font-family: myCustomFont;
-    src: url('../font/Catamaran-Regular.ttf');
+    src: url("../font/SF-Pro-Text-Regular.otf");
 }
 @font-face {
     font-family: myCustomFont1;
-    src: url('../font/Catamaran-Medium.ttf');
+    src: url('../font/ProductSans-Regular.ttf');
 }
+
+@font-face {
+  font-family: sf-regular;
+  src: url("../font/SF-Pro-Text-Regular.otf");
+}
+
+@font-face {
+  font-family: sf-light;
+  src: url("../font/SF-Pro-Text-Light.otf");
+}
+
+@font-face {
+  font-family: sf-bold;
+  src: url("../font/SF-Pro-Text-Bold.otf");
+}
+
+@font-face {
+  font-family: product-sans-regular;
+  src: url("../font/ProductSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: sf-medium;
+  src: url("../font/SF-Pro-Text-Medium.otf");
+}
+
 
 * {
 	margin: 0;
@@ -29,17 +55,17 @@
 }
 
 body {
-	font-family: 'myCustomFont', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'sf-light', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	background-color: #FFFFFF;
 }
 
 h1 {
-	font-size:48px;
-	font-weight:300;
-	line-height:53px;
+	font-size:45px;
+	font-weight:75;
+	line-height:60px;
 	margin: 0px 0 16px 0;
-	color: #1D2129;
+	color: #333;
 }
 
 h2 {
@@ -50,11 +76,13 @@ h2 {
 	margin:60px 0 24px 0;
 	color: #1D2129;
 }
+
 h3 {
+  font-family: myCustomFont1;
 	font-size: 24px;
 	margin-bottom: 24px;
 	font-weight: 400;
-	color: #90949C;
+	color: #999;
 }
 
 p {
@@ -62,6 +90,7 @@ p {
 	line-height: 26px;
 	margin-bottom: 24px;
 	color: #4B4F56;
+  font-family: sf-light;
 }
 
 strong {
@@ -114,6 +143,7 @@ hr {
 	height: 0;
 	border-bottom: 1px solid #E9EBEE;
 }
+
 a {
 	color:inherit;
 	text-decoration: none;
@@ -512,9 +542,10 @@ body #nav {
 
 .card-tag {
 	background: #4080FF;
-padding-left: 10px;
+padding-left: 9px;
 padding-right: 10px;
 margin-bottom: 20px;
+margin-left: 4px;
 border-radius: 70px;
 font-weight: 700;
 color: white;
