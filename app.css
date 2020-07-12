@@ -113,7 +113,7 @@
   padding: 4rem 0 0 0;
 }
 #problem-block-header h5 {
-  padding: 0 0 0 2rem;
+  padding: 0 0 0 0;
 }
 
 .sub-heading {
@@ -145,7 +145,7 @@
   color: #111;
   font-size: 36px;
   text-align: left;
-  padding: 0rem 0 4rem 2rem;
+  padding: 0rem 0 4rem 0;
   line-height: 2.7rem;
 }
 .centered h2 {
@@ -178,7 +178,7 @@
   margin-bottom: 3rem;
   background-color: #fff;
   padding-left: 0;
-  padding-right: 0;
+  padding-rigt: 0;
 }
 
 #feature-list ul {
