@@ -568,11 +568,6 @@
   padding: 1rem 0 0 3rem;
 }
 
-/* .name-block {
-  transform: translate(-50%, -50%);
-  height: 6rem;
-} */
-
 .projects-container-header h2 {
   font-family: product-sans-regular;
 }
@@ -766,4 +761,7 @@ a.page-link:hover {
 .dim-text {
   font-family: sf-light, Roboto, Helvetica !important;
   color: #777;
+}
+.horizontal-bar {
+  margin-bottom: 6rem;
 }
