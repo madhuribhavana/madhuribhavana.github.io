@@ -173,8 +173,10 @@
   font-size: 30px;
 }
 #feature-block {
-  margin-top: 3rem;
   margin-bottom: 3rem;
+}
+#issue-logging {
+  margin-top: 3rem;
 }
 
 .feature-block {
