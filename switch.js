@@ -9,8 +9,11 @@ var arr = [
 
 function changeVal() {
   if (i == arr.length) i = 0;
+
   document.getElementById("first").innerHTML = arr[i].first;
+
   document.getElementById("last").innerHTML = arr[i].second;
+
   document.getElementById("emoji").innerHTML = arr[i].emoji;
   i++;
 }
