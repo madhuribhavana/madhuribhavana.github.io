@@ -521,6 +521,10 @@
 #summary-block {
   margin-top: 6rem;
 }
+.summary-block{
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
 
 .icon i :hover {
   color: #4285f4 !important;
