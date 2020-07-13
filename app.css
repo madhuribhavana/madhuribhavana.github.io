@@ -91,14 +91,15 @@
   vertical-align: top;
 }
 
-#header-block, #admob-header-block, #admob-header-block-2, #admob-header-block-3{
+#header-block,
+#admob-header-block,
+#admob-header-block-2,
+#admob-header-block-3 {
   padding-top: 6.5rem;
 }
-#admob-sub-header{
-  padding-bottom:0!important;
+#admob-sub-header {
+  padding-bottom: 0 !important;
 }
-
-
 
 .main-header h5 {
   opacity: 0.77;
@@ -176,7 +177,6 @@
   text-align: left;
   color: #111;
   font-size: 30px;
-  padding-bottom: 6rem;
 }
 #mobile-image,
 #feature-block {
@@ -522,7 +522,7 @@
 #summary-block {
   margin-top: 6rem;
 }
-.summary-block{
+.summary-block {
   margin-top: 6rem;
   margin-bottom: 6rem;
 }
