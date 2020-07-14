@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="UX Portfolio" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,shrink-to-fit=no"
+    />
+    <meta name="description" content="UX Portfolio" />
+    <meta name="author" content="To be changed" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="keywords"
+      content="madhuri, madhuri bhavana, portfolio, UX Designer, georgia tech, amazon, UX, nutanix, gt, human computer interaction, hci, design, designer"
+    />
+
+    <title>Madhuri Bhavana</title>
+    <link rel="icon" type="image/png" href="icons/monkey.png" />
+
+    <!-- Adding Polyfil Js for cross-browser compatability -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-polyfills/0.1.42/polyfill.js"></script>
+    <!-- Adding bootstrap for the cross-device compatability -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+      data-auto-replace-svg="nest"
+    ></script>
+    <!-- Add the global css file for CSS edits  -->
+    <link rel="stylesheet" type="text/css" href="app.css" />
+
+    <!-- Fonts -->
+    <script src="https://use.fontawesome.com/938ca7b6fa.js"></script>
+
+    <!-- Custom Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=poppins"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-143173396-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-143173396-1");
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="switch.js"></script>
+  </head>
+  <!-- End of HEAD -->
+
+  <body id="app-body" class="placard">
+    <!-- Navigation bar starts -->
+    <nav
+      id="nav-bar"
+      class="navbar col-12 rectangle d-flex justify-content-between align-items-start"
+    >
+      <div id="logo" class="col-2 d-flex align-self-center">
+        <a href="index.html"><img src="images/icon.svg" /></a>
+      </div>
+
+      <div
+        id="nav-items"
+        class="col-9 d-flex justify-content-end align-items-stretch"
+      >
+        <div class="nav-item col-1">
+          <a href="index.html"><span class="nav-item col-1">Home</span></a>
+        </div>
+
+        <div class="nav-item col-1">
+          <a href="Madhuri Bhavana.pdf" target="_blank"
+            ><span class="nav-item col-1">Resume</span></a
+          >
+        </div>
+
+        <div class="nav-item col-1">
+          <a href="#footer-block"
+            ><span class="nav-item col-1">Contact</span></a
+          >
+        </div>
+
+        <div class="nav-item col-1">
+          <a href="#"><span class="nav-item col-1"></span></a>
+        </div>
+      </div>
+      <br />
+    </nav>
+    <!-- Navigation bar ends  -->
+
+    <!-- Header -->
+
+    <div id="summary-block" class="row d-flex align-items-center flex-column">
+      <div id="header-block" class="container-fluid">
+        <div class="main-header row d-flex justify-content-center">
+          <h5>UX @ CARDEKHO.COM</h5>
+        </div>
+
+        <div class="sub-header row d-flex justify-content-center">
+          <h1 class="col-7">
+            Improving the car buying experience
+          </h1>
+        </div>
+      </div>
+
+      <!-- Introduction Image -->
+      <div
+        id="feature-block"
+        class="row col-12 container-fluid feature-block d-flex justify-content-around"
+      >
+        <img src="car/c0.png" alt="project-image.png" width="100%" />
+      </div>
+
+      <!-- Background, Role, Method  -->
+      <div id="problem-block" class="row col-7 container-fluid">
+        <div class="sub-header row d-flex justify-content-center">
+          <h2>
+            As a UXer, I was resposible for understanding car buyers' needs and behaviors and design meaningful solutions to enhance their car buying experience.
+          </h2>
+        </div>
+
+        <!-- <div
+          id="problem-block-header"
+          class="main-header row d-flex justify-content-center"
+        >
+          <h5>👉&nbsp;&nbsp;MY IMPACT</h5>
+        </div>
+
+        <img
+          src="admob/d1.png"
+          alt="project-image.png"
+          class="full-image-center col-7"
+        /> -->
+      </div>
+
+      <!-- PROPOSAL -->
+      <div id="header-block" class="container-fluid">
+        <div class="main-header d-flex justify-content-center">
+          <h5>THE GOALS..</h5>
+        </div>
+
+        <div class="car-sub-header admob-left-align d-flex justify-content-center">
+          <h3 class="col-7">
+            • To understand user types and experience<br>
+            • To improve usability across all product platforms<br>
+            • To personalize user journeys to deliver a meaningful experience<br>
+          </h3>
+        </div>
+      </div>
+
+      <!-- MY WORK section -->
+      <div id="admob-header-block" class="container-fluid">
+        <div class="main-header row d-flex justify-content-center">
+          <h5>MY WORK</h5>
+        </div>
+
+        <div class="sub-header centered row d-flex justify-content-center">
+          <h2 id ="car-sub-header" class="col-7">
+            What did I <span style="color: #e8aa2c;">do?</span>
+          </h2>
+        </div>
+      </div>
+
+      <!-- AD FORMATS SELECTION -->
+      <div
+        id="section-x-block"
+        class="row col-8 container d-flex align-items-center justify-content-between"
+      >
+        <div class="col-5 text-box-white">
+          <div
+            class="text-box-inner d-flex align-items-start flex-column justify-content-between"
+          >
+            <div
+              class="main-header admob-left-align row d-flex justify-content-center"
+            >
+              <h5>MIXED METHODS RESEARCH</h5>
+            </div>
+            <div>
+              <div
+                class="sub-header admob-left-align row d-flex justify-content-left"
+              >
+                <h4>
+                  Conducted research to understand user types, their behaviours, needs, painpoints and touchpoints.
+                </h4>
+              </div>
+
+              <p class="intro-description-text">
+                • SME interviews to understand product vision and goals.
+                • Contextual inquiries with users
+                • Interviews with stakeholders
+                • Card sorting
+                • UI Evaluation via heuristics
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-5 d-flex justify-content-end">
+          <div class="process admob-image-landscape">
+            <img
+              src="admob/d2.png"
+              alt="project-image.png"
+              class="process-image-no-text"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- WORK  2  -->
+      <div
+        id="section-x-block"
+        class="row col-8 container d-flex align-items-center justify-content-between"
+      >
+        <div class="col-5">
+          <div class="process admob-image">
+            <img
+              src="admob/d3.png"
+              alt="project-image.png"
+              class="process-image-no-text"
+            />
+          </div>
+        </div>
+
+        <div class="col-5 text-box-white">
+          <div
+            class="text-box-inner d-flex align-items-start flex-column justify-content-between"
+          >
+            <div
+              class="main-header admob-left-align row d-flex justify-content-center"
+            >
+              <h5>QUANT RESEARCH</h5>
+            </div>
+
+            <div
+              class="sub-header admob-left-align row d-flex justify-content-left"
+            >
+              <h4>
+                Quant research to track user conversions and analyze user journeys.
+              </h4>
+            </div>
+
+            <p class="intro-description-text">
+              • Used Google analytics to track journey related metrics
+              • Used NPS ratings to understand painpoints in experiences
+              • In-page surveys
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- WORK 3 -->
+      <div
+        id="section-x-block"
+        class="row col-8 container d-flex align-items-center justify-content-between"
+      >
+        <div class="col-5 text-box-white">
+          <div
+            class="text-box-inner d-flex align-items-start flex-column justify-content-between"
+          >
+            <div
+              class="main-header admob-left-align row d-flex justify-content-center"
+            >
+              <h5>ANALYSIS AND USER TYPES</h5>
+            </div>
+
+            <div
+              class="sub-header admob-left-align row d-flex justify-content-left"
+            >
+              <h4>
+                Created personas for the product and generated behavioural archetypes
+              </h4>
+            </div>
+
+            <p class="intro-description-text">
+              • Broke down the current journeys into broad stages - research, dealer interaction and purchase and represented the touchpoints and painpoints.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-5 d-flex justify-content-end">
+          <div class="process admob-image">
+            <img
+              src="admob/d4.png"
+              alt="project-image.png"
+              class="process-image-no-text"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- WORK 4 -->
+      <div
+        id="section-x-block"
+        class="row col-8 container d-flex align-items-center justify-content-between"
+      >
+        <div class="col-5">
+          <div class="process admob-image d-flex justify-content-end">
+            <img
+              src="admob/d5.png"
+              alt="project-image.png"
+              class="process-image-no-text"
+            />
+          </div>
+        </div>
+
+        <div class="col-5 text-box-white">
+          <div
+            class="text-box-inner d-flex align-items-start flex-column justify-content-between"
+          >
+            <div
+              class="main-header admob-left-align row d-flex justify-content-center"
+            >
+              <h5>PRODUCT DESIGN</h5>
+            </div>
+
+            <div
+              class="sub-header admob-left-align row d-flex justify-content-left"
+            >
+              <h4>
+                Designed new features, changed information architecture and personalized user experiences.
+              </h4>
+            </div>
+
+            <p class="intro-description-text">
+              Colloborated with product, FE, content and visual design teams to design and deploy new features.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- WORK 5 -->
+      <div
+        id="section-x-block"
+        class="row col-8 container d-flex align-items-center justify-content-between"
+      >
+        <div class="col-5 text-box-white">
+          <div
+            class="text-box-inner d-flex align-items-start flex-column justify-content-between"
+          >
+            <div
+              class="main-header admob-left-align row d-flex justify-content-center"
+            >
+              <h5>EVALUATION AND TESTING</h5>
+            </div>
+
+            <div
+              class="sub-header admob-left-align row d-flex justify-content-left"
+            >
+              <h4>
+                Tracked and tested design changes via qual and quantitative methods.
+              </h4>
+            </div>
+
+            <p class="intro-description-text">
+              Based on the testing results, iterations to the new features were made.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-5 d-flex justify-content-end">
+          <div class="process admob-image-horizontal">
+            <img
+              src="admob/d6.png"
+              alt="project-image.png"
+              class="process-image-no-text"
+            />
+          </div>
+        </div>
+      </div>
+
+
+      <!-- WORK 6 -->
+      <div
+        id="section-x-block"
+        class="row col-8 container d-flex align-items-center justify-content-between"
+      >
+        <div class="col-5">
+          <div class="process admob-image d-flex justify-content-end">
+            <img
+              src="admob/d5.png"
+              alt="project-image.png"
+              class="process-image-no-text"
+            />
+          </div>
+        </div>
+
+        <div class="col-5 text-box-white">
+          <div
+            class="text-box-inner d-flex align-items-start flex-column justify-content-between"
+          >
+            <div
+              class="main-header admob-left-align row d-flex justify-content-center"
+            >
+              <h5>VISUAL DESIGN</h5>
+            </div>
+
+            <div
+              class="sub-header admob-left-align row d-flex justify-content-left"
+            >
+              <h4>
+                Designed and developed a visual style guide and component library.
+              </h4>
+            </div>
+
+            <p class="intro-description-text">
+              Colloborated with the FE team to develop a component library for cardekho's subsidiary - Zigwheels.com.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+      <!-- LEARNINGS section -->
+    <div id="admob-header-block-2" class="container-fluid">
+        <div
+          class="main-header admob-left-align row d-flex justify-content-center"
+        >
+          <h5>LEARNING EXPERIENCE</h5>
+        </div>
+
+        <div class="sub-header centered row d-flex justify-content-center">
+          <h2 class="col-7">I <span style="color: #e8aa2c;">learnt..</span></h2>
+        </div>
+      </div>
+
+      <div
+        id="section-x-block"
+        class="row col-9 container d-flex align-items-start justify-content-center"
+      >
+        <div class="col-3 text-box-white">
+          <div
+            class="text-box-inner d-flex align-items-center flex-column justify-content-between"
+          >
+
+            <div
+              class="sub-header admob-left-align row d-flex justify-content-left"
+            >
+              <h4>
+                Collaboration
+              </h4>
+            </div>
+
+            <p class="intro-description-text">
+              Led mixed-methods research
+            </p>
+          </div>
+        </div>
+
+        <div class="col-3 text-box-white">
+          <div
+            class="text-box-inner d-flex align-items-center flex-column justify-content-between"
+          >
+
+            <div
+              class="sub-header admob-left-align row d-flex justify-content-left"
+            >
+              <h4>
+                Agile methods
+              </h4>
+            </div>
+
+            <p class="intro-description-text">
+              Led mixed-methods research
+            </p>
+          </div>
+        </div>
+
+        <div class="col-3 text-box-white">
+          <div
+            class="text-box-inner d-flex align-items-center flex-column justify-content-between"
+          >
+
+            <div
+              class="sub-header admob-left-align row d-flex justify-content-left"
+            >
+              <h4>
+                Project Planning
+              </h4>
+            </div>
+
+            <p class="intro-description-text">
+              Led mixed-methods research
+            </p>
+          </div>
+        </div>
+      </div>
+
+  <!-- PROPOSAL -->
+      <div id="admob-header-block-3" class="container-fluid">
+        <div class="main-header row d-flex justify-content-center">
+          <h5>CONTACT ME</h5>
+        </div>
+
+        <div
+          class="sub-header admob-left-align row d-flex justify-content-center"
+        >
+          <h3 class="col-7">
+            Due to legal constraints, I cannot share the details here. <a href="mailto:madhuribhavana15@gmail.com?subject=UXandChai"> Contact me </a> to know more about my experience.
+          </h3>
+        </div>
+      </div>
+    </div>
+    <!--End of all content -->
+
+    <!-- Footer  -->
+    <footer
+      id="footer-block"
+      class="container-fluid row col-12 d-flex align-self-end"
+    >
+      <div class="footer-inner-block align-self-end row col-12">
+        <div
+          class="row col-12 d-flex align-items-end flex-column footer-place-holder"
+        >
+          <div class="link-holder">
+            <a href="amz.html"
+              ><span class="next-page">Next Section: Explorations ></span></a
+            >
+          </div>
+
+          <div class="place-holder">
+            <span>Visual Design, Branding </span>
+          </div>
+        </div>
+
+        <div
+          class="row col-12 footer-name-holder d-flex justify-content-around"
+        >
+          <div class="col-3 footer-name">
+            <span class="name-holder"
+              ><i class="fa fa-copyright"></i>&nbsp Madhuri Bhavana</span
+            >
+          </div>
+
+          <div class="col-3 oval-holder">
+            <ul class="d-flex justify-content-around">
+              <li class="icon">
+                <a href="https://www.instagram.com/madhuribhavana/"
+                  ><i class="fab fa-instagram fa-2x"></i
+                ></a>
+              </li>
+              <li class="icon">
+                <a href="https://www.linkedin.com/in/madhuribhavana/"
+                  ><i class="fab fa-linkedin fa-2x"></i
+                ></a>
+              </li>
+              <li class="icon">
+                <a href="https://dribbble.com/designerwithanindo"
+                  ><i class="fab fa-dribbble fa-2x"></i
+                ></a>
+              </li>
+              <li class="icon">
+                <a href="https://www.behance.net/madhuribhavana"
+                  ><i class="fab fa-behance fa-2x"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-3 footer-name d-flex justify-content-end">
+            <span class="name-holder heart"
+              >Designed with ♥️ and chai!</span
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

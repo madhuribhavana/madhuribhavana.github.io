@@ -97,8 +97,13 @@
 #admob-header-block-3 {
   padding-top: 6.5rem;
 }
+
 #admob-sub-header {
   padding-bottom: 0 !important;
+}
+
+#car-sub-header {
+  padding-bottom: 4rem !important;
 }
 
 .main-header h5 {
@@ -178,6 +183,17 @@
   color: #111;
   font-size: 30px;
 }
+
+.car-sub-header h3 {
+  opacity: 0.77;
+  font-family: product-sans-regular, Helvetica, sans-serif !important; /*change the fonts*/
+  text-align: center;
+  color: #555;
+  font-size: 30px;
+  line-height: 2.4rem;
+  padding-bottom: 3rem;
+}
+
 #mobile-image,
 #feature-block {
   margin-bottom: 3rem;
