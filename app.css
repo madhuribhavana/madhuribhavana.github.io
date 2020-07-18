@@ -194,6 +194,16 @@
   padding-bottom: 3rem;
 }
 
+.ntxcontent-sub-header h4 {
+  opacity: 0.77;
+  font-family: product-sans-regular, Helvetica, sans-serif !important; /*change the fonts*/
+  text-align: center;
+  color: #111;
+  font-size: 30px;
+  padding-bottom: 3rem;
+  line-height: 2.4rem;
+}
+
 #mobile-image,
 #feature-block {
   margin-bottom: 3rem;
