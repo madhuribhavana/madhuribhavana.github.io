@@ -422,6 +422,15 @@
   padding-bottom: 1rem;
 }
 
+.process-image-no-text-ntx {
+  display: block;
+  margin-left: Auto;
+  margin-right: auto;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+}
+
 .deocoration-bar {
   width: 30px;
   height: 10px;
