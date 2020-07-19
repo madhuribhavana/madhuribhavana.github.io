@@ -298,6 +298,9 @@
   font-family: sf-light, Roboto, Helvetica !important; /*change the fonts*/
   color: #111;
 }
+.solution-block {
+  padding-bottom: 6rem;
+}
 
 .intro-description-text b {
   font-family: sf-bold, Roboto, Helvetica !important; /*change the fonts*/
