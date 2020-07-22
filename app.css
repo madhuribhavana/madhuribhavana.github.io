@@ -622,6 +622,15 @@
   margin-bottom: 15rem;
   height: 16rem;
 }
+
+/* Change here */
+#introduction-block-indexhtml {
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+  height: 16rem;
+}
+
+
 .nav-item a {
   color: #555555;
 }
