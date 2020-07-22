@@ -553,6 +553,11 @@
 .text-box-inner {
   padding: 30px 12px 12px 12px;
 }
+
+.text-box-inner-ntx {
+  padding: 30px 20px 12px 20px;
+}
+
 .text-box-inner p {
   padding-top: 20px;
   color: #555;
