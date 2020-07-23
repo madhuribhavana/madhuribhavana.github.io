@@ -205,6 +205,16 @@
   line-height: 2.4rem;
 }
 
+.ntxcontent-sub-header h5 {
+  opacity: 0.77;
+  font-family: product-sans-regular, Helvetica, sans-serif !important; /*change the fonts*/
+  text-align: center;
+  color: #555;
+  font-size: 24px;
+  padding-bottom: 3rem;
+  line-height: 2.4rem;
+}
+
 #mobile-image,
 #feature-block {
   margin-bottom: 3rem;
@@ -271,6 +281,15 @@
   font-family: sf-medium, Helvetica, sans-serif !important; /*change the fonts*/
   color: #111;
 }
+
+.intro-headers-ntxgoals h5 {
+  opacity: 0.77;
+  font-family: product-sans-medium, Helvetica, sans-serif !important; /*change the fonts*/
+  text-align: left;
+  color: #111;
+  font-size: 18px;
+}
+
 .intro-headers h4 {
   font-family: sf-medium, Helvetica, sans-serif !important; /*change the fonts*/
   color: #111;
@@ -849,7 +868,7 @@ a.page-link:hover {
   margin-bottom: 6rem;
 }
 .card-ntx {
-  height: 22rem;
+  height: 25rem;
 }
 .ntx-card-container {
   margin-top: 3rem;
