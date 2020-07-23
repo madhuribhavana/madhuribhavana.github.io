@@ -160,7 +160,6 @@
   line-height: 2.7rem;
 }
 
-
 .centered h2 {
   text-align: center;
 }
@@ -202,6 +201,16 @@
   text-align: center;
   color: #111;
   font-size: 30px;
+  padding-bottom: 3rem;
+  line-height: 2.4rem;
+}
+
+.ntxcontent-sub-header h5 {
+  opacity: 0.77;
+  font-family: product-sans-regular, Helvetica, sans-serif !important; /*change the fonts*/
+  text-align: center;
+  color: #555;
+  font-size: 24px;
   padding-bottom: 3rem;
   line-height: 2.4rem;
 }
@@ -272,6 +281,15 @@
   font-family: sf-medium, Helvetica, sans-serif !important; /*change the fonts*/
   color: #111;
 }
+
+.intro-headers-ntxgoals h5 {
+  opacity: 0.77;
+  font-family: product-sans-medium, Helvetica, sans-serif !important; /*change the fonts*/
+  text-align: left;
+  color: #111;
+  font-size: 18px;
+}
+
 .intro-headers h4 {
   font-family: sf-medium, Helvetica, sans-serif !important; /*change the fonts*/
   color: #111;
@@ -560,7 +578,6 @@
   padding: 30px 20px 12px 20px;
 }
 
-
 .text-box-inner-admob {
   padding: 30px 20px 12px 20px;
 }
@@ -636,7 +653,6 @@
   margin-bottom: 15rem;
   height: 16rem;
 }
-
 
 .nav-item a {
   color: #555555;
@@ -850,4 +866,10 @@ a.page-link:hover {
 }
 .space {
   margin-bottom: 6rem;
+}
+.card-ntx {
+  height: 25rem;
+}
+.ntx-card-container {
+  margin-top: 3rem;
 }
