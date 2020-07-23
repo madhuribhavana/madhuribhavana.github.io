@@ -215,7 +215,6 @@
   line-height: 2.4rem;
 }
 
-#mobile-image,
 #feature-block {
   margin-bottom: 3rem;
 }
@@ -381,6 +380,7 @@
 #decorator-block-light-grey img {
   padding-top: 0;
 }
+
 .full-image-center {
   display: block;
   margin-left: Auto;
