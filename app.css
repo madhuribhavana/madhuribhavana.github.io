@@ -160,7 +160,6 @@
   line-height: 2.7rem;
 }
 
-
 .centered h2 {
   text-align: center;
 }
@@ -560,7 +559,6 @@
   padding: 30px 20px 12px 20px;
 }
 
-
 .text-box-inner-admob {
   padding: 30px 20px 12px 20px;
 }
@@ -636,7 +634,6 @@
   margin-bottom: 15rem;
   height: 16rem;
 }
-
 
 .nav-item a {
   color: #555555;
@@ -850,4 +847,10 @@ a.page-link:hover {
 }
 .space {
   margin-bottom: 6rem;
+}
+.card-ntx {
+  height: 22rem;
+}
+.ntx-card-container {
+  margin-top: 3rem;
 }
