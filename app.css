@@ -159,6 +159,8 @@
   padding: 0rem 0 4rem 0;
   line-height: 2.7rem;
 }
+
+
 .centered h2 {
   text-align: center;
 }
@@ -555,6 +557,11 @@
 }
 
 .text-box-inner-ntx {
+  padding: 30px 20px 12px 20px;
+}
+
+
+.text-box-inner-admob {
   padding: 30px 20px 12px 20px;
 }
 
