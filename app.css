@@ -421,8 +421,7 @@
   width: 100%;
   background-color: #fff;
 }
-
-.half-image-center-nohighlight {
+. .half-image-center-nohighlight {
   display: block;
   margin-left: Auto;
   margin-right: auto;
@@ -828,6 +827,9 @@ div.rotate-text-1 {
 }
 .projects-container {
   margin-bottom: 5rem;
+}
+.amz-margin-bottom {
+  margin-bottom: 4rem;
 }
 
 div.badge-block span {
