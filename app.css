@@ -214,6 +214,26 @@
   padding-bottom: 3rem;
   line-height: 2.4rem;
 }
+
+.amzcontent-sub-header h4 {
+  opacity: 0.77;
+  font-family: product-sans-regular, Helvetica, sans-serif !important; /*change the fonts*/
+  text-align: center;
+  color: #111;
+  font-size: 30px;
+  padding-bottom: 3rem;
+  line-height: 2.4rem;
+}
+
+.amzcontent-sub-header h5 {
+  opacity: 0.77;
+  font-family: product-sans-regular, Helvetica, sans-serif !important; /*change the fonts*/
+  text-align: center;
+  color: #555;
+  font-size: 24px;
+  padding-bottom: 3rem;
+  line-height: 2.4rem;
+}
 #mobile-image,
 #feature-block {
   margin-bottom: 3rem;
@@ -583,6 +603,10 @@
 }
 
 .text-box-inner-admob {
+  padding: 30px 20px 12px 20px;
+}
+
+.text-box-inner-car {
   padding: 30px 20px 12px 20px;
 }
 
