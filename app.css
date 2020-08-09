@@ -498,6 +498,9 @@
 #analysis-block {
   margin-top: 6rem;
 }
+#amz-sub-header h3 {
+  padding-bottom: 0;
+}
 #footer-block {
   height: 24rem;
   background-color: #ececec;
