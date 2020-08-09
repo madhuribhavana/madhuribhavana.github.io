@@ -215,6 +215,17 @@
   line-height: 2.4rem;
 }
 
+.mission-sub-header h2 {
+  opacity: 0.77;
+  font-family: product-sans-regular, Helvetica, sans-serif !important; /*change the fonts*/
+  text-align: center;
+  color: #111;
+  font-size: 30px;
+  text-align: center;
+  padding: 0rem 0 4rem 0;
+  line-height: 2.7rem;
+}
+
 .amzcontent-sub-header h4 {
   opacity: 0.77;
   font-family: product-sans-regular, Helvetica, sans-serif !important; /*change the fonts*/
