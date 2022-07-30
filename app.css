@@ -745,7 +745,7 @@ div.rotate-text-1 {
   }
 }
 
-/* .hi-Namaste {
+.hi-Namaste {
   font-family: sf-medium;
   padding-left: 0.5rem !important;
   font-size: 21px;
@@ -755,7 +755,7 @@ div.rotate-text-1 {
   line-height: 2.22;
   letter-spacing: normal;
   color: #999999;
-} */
+}
 
 .name-block {
   width: 36rem;
@@ -768,7 +768,7 @@ div.rotate-text-1 {
   line-height: 1.9;
   letter-spacing: normal;
   color: #777777;
-  margin: 3.5rem 0 0 0;
+  margin: -1.5rem 0 0 0;
 }
 .name-block-2 {
   width: 30rem;
@@ -784,19 +784,6 @@ div.rotate-text-1 {
   margin: 6rem 0 0 0;
 }
 
-.hi-Namaste {
-  width: 36.5rem;
-  height: 40px;
-  font-family: product-sans-regular;
-  font-size: 48px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.9;
-  letter-spacing: normal;
-  color: #777777;
-
-}
 .job-block {
   width: 36.5rem;
   height: 40px;
