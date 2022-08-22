@@ -82,6 +82,10 @@
 .first-item {
   box-shadow: 0px 2px #4080ff;
 }
+.custom-font{
+  font-family: product-sans-regular, Helvetica, sans-serif !important;
+  font-size:2rem;
+}
 
 #logo {
   font-size: 64px;
