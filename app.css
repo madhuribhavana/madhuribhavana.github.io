@@ -83,8 +83,12 @@
   box-shadow: 0px 2px #4080ff;
 }
 .custom-font{
-  font-family: product-sans-regular, Helvetica, sans-serif !important;
+  font-family: product-sans-regular !important;
   font-size:2rem;
+}
+.custom-font-2{
+  font-family: product-sans-regular, Helvetica, sans-serif !important;
+  font-size:1.75rem;
 }
 
 #logo {
