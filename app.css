@@ -819,9 +819,14 @@ div.rotate-text-1 {
   margin-top: 4rem;
 }
 .card {
-  margin-right: 0rem;
-  height: 27rem;
+  margin-right: 0.5rem;
+  height: 12.5rem; /* reduced from 27rem to remove extra vertical space */
   border-color: #e9e9e9;
+  margin: 10px; /* consistent outer spacing */
+
+  &.feature-card {
+    height: 20rem;
+  }
 }
 .card:hover {
   transform: translate(0, -5px);
@@ -829,15 +834,17 @@ div.rotate-text-1 {
   box-shadow: 0 0 5px rgba(33, 33, 33, 0.2);
 }
 .card img {
-  width: 357px;
-  height: 200px;
+  width: 100%;
+  max-width: 357px;
+  height: 160px; /* reduced from 200px */
+  object-fit: cover;
 }
 
 .card-footer {
   background-color: white;
   border: none;
-  padding-bottom: 1.5rem;
-  padding-top: 0.5rem;
+  padding-bottom: 0.75rem; /* reduced vertical padding */
+  padding-top: 0.35rem;
 }
 .horizontal-line {
   width: 69rem;
@@ -857,7 +864,7 @@ div.badge-block span {
   font-size: 11px;
   text-transform: uppercase;
   align-items: flex-end;
-  margin: 3rem 0.5rem 0 0;
+  margin: 0.5rem 0.5rem 0 0; /* reduced badge top margin */
 }
 .badge {
   padding: 0.5rem;
