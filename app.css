@@ -726,7 +726,7 @@
 
 .nav-item a {
   font-size: 1rem;
-  font-family: product-sans-regular, Helvetica, sans-serif !important;
+  font-family: product-sans-regular;
   color: #555555;
 
   &:active,
