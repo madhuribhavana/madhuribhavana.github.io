@@ -1138,6 +1138,7 @@ a.page-link:hover {
 
 .featured-card-link {
   flex: 0 0 380px;
+  height: 320px;
   text-decoration: none;
   color: inherit;
 }
