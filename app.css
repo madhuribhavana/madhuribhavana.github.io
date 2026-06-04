@@ -1102,7 +1102,7 @@ a.page-link:hover {
   font-family: product-sans-regular, Helvetica, sans-serif;
   font-size: 0.6rem;
   color: #666;
-  /* border: 1px solid #ddd; */
+  letter-spacing: 0.5px;
   border-radius: 20px;
   padding: 0.2rem 0.65rem;
   background: #eaedf1;
