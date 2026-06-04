@@ -1099,13 +1099,13 @@ a.page-link:hover {
 }
 
 .pcard-tag {
-  font-family: product-sans-light, Helvetica, sans-serif;
+  font-family: product-sans-regular, Helvetica, sans-serif;
   font-size: 0.6rem;
   color: #666;
-  border: 1px solid #ddd;
+  /* border: 1px solid #ddd; */
   border-radius: 20px;
   padding: 0.2rem 0.65rem;
-  background: #fafafa;
+  background: #eaedf1;
   white-space: nowrap;
   text-transform: uppercase;
 }
