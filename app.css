@@ -1236,3 +1236,15 @@ a.page-link:hover {
   background: #f5f5f5;
   border-color: #bbb;
 }
+
+.featured-card-img-wrap--centered-small {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured-card-img-wrap--centered-small img {
+  width: 33%;
+  height: auto;
+  object-fit: initial;
+}
