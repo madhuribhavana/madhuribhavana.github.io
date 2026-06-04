@@ -1045,7 +1045,9 @@ a.page-link:hover {
   overflow: hidden;
   background: #fff;
   transition: transform 0.2s, box-shadow 0.2s;
-  height: 100%;
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .pcard:hover {
@@ -1067,10 +1069,13 @@ a.page-link:hover {
 
 .pcard-body {
   padding: 1rem 1.1rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .pcard-title {
-  font-family: sf-bold, Helvetica, sans-serif;
+  font-family: product-sans-bold, Helvetica, sans-serif;
   font-size: 0.95rem;
   color: #1a1f3c;
   font-weight: bold;
@@ -1079,7 +1084,7 @@ a.page-link:hover {
 }
 
 .pcard-subtitle {
-  font-family: sf-light, Helvetica, sans-serif;
+  font-family: product-sans-light, Helvetica, sans-serif;
   font-size: 0.85rem;
   color: #888;
   line-height: 1.5;
@@ -1090,17 +1095,19 @@ a.page-link:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
+  margin-top: auto;
 }
 
 .pcard-tag {
-  font-family: sf-light, Helvetica, sans-serif;
-  font-size: 0.72rem;
+  font-family: product-sans-light, Helvetica, sans-serif;
+  font-size: 0.6rem;
   color: #666;
   border: 1px solid #ddd;
   border-radius: 20px;
   padding: 0.2rem 0.65rem;
   background: #fafafa;
   white-space: nowrap;
+  text-transform: uppercase;
 }
 
 /* Featured in publication meta */
