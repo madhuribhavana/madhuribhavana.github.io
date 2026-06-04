@@ -1034,6 +1034,11 @@ a.page-link:hover {
   color: inherit;
 }
 
+.pcard-link:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
 .pcard {
   border: 1px solid #e9e9e9;
   border-radius: 14px;
@@ -1133,6 +1138,11 @@ a.page-link:hover {
 
 .featured-card-link {
   flex: 0 0 380px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.featured-card-link:hover {
   text-decoration: none;
   color: inherit;
 }
