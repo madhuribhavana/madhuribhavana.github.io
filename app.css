@@ -1075,8 +1075,8 @@ a.page-link:hover {
 }
 
 .pcard-title {
-  font-family: product-sans-bold, Helvetica, sans-serif;
-  font-size: 0.95rem;
+  font-family: sf-bold, Helvetica, sans-serif;
+  font-size: 1rem;
   color: #1a1f3c;
   font-weight: bold;
   line-height: 1.4;
@@ -1084,7 +1084,7 @@ a.page-link:hover {
 }
 
 .pcard-subtitle {
-  font-family: product-sans-light, Helvetica, sans-serif;
+  font-family: sf-regular, Helvetica, sans-serif;
   font-size: 0.85rem;
   color: #888;
   line-height: 1.5;
