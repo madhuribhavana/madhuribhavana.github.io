@@ -102,6 +102,18 @@
         <a href="index.html"><span>MADHURI BHAVANA</span></a>
       </div>
 
+      <button
+        id="nav-toggle"
+        class="nav-toggle"
+        aria-label="Toggle navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-items"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div
         id="nav-items"
         class="col-9 d-flex justify-content-end align-items-center"
@@ -120,6 +132,30 @@
       </div>
     </nav>
     <!-- Navigation bar ends  -->
+    <script>
+      (function () {
+        var toggle = document.getElementById("nav-toggle");
+        var navItems = document.getElementById("nav-items");
+        if (!toggle || !navItems) return;
+
+        function closeMenu() {
+          navItems.classList.remove("is-open");
+          toggle.classList.remove("is-open");
+          toggle.setAttribute("aria-expanded", "false");
+        }
+
+        toggle.addEventListener("click", function () {
+          var isOpen = navItems.classList.toggle("is-open");
+          toggle.classList.toggle("is-open", isOpen);
+          toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+        });
+
+        // Close the menu after tapping a link
+        navItems.addEventListener("click", function (e) {
+          if (e.target.closest("a")) closeMenu();
+        });
+      })();
+    </script>
 
     <!-- Header -->
 
