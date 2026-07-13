@@ -65,6 +65,72 @@
   gap: 1rem;
 }
 
+/* Hamburger toggle button — hidden on desktop */
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 40px;
+  height: 40px;
+  margin-right: 2rem;
+  padding: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.nav-toggle:focus,
+.nav-toggle:active {
+  outline: none;
+  box-shadow: none;
+}
+.nav-toggle span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: #1a1f3c;
+  border-radius: 2px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.nav-toggle.is-open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.nav-toggle.is-open span:nth-child(2) {
+  opacity: 0;
+}
+.nav-toggle.is-open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+@media (max-width: 999.98px) {
+  .nav-toggle {
+    display: flex;
+  }
+  #nav-items {
+    display: none !important;
+    position: absolute;
+    top: 64px;
+    right: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    width: 220px;
+    padding: 0.5rem 0;
+    background-color: rgba(255, 255, 255, 0.98);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-top: none;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  }
+  #nav-items.is-open {
+    display: flex !important;
+  }
+  .nav-item {
+    width: 100%;
+    justify-content: start;
+    padding: 0.75rem 2rem;
+  }
+}
+
 .nav-item {
   flex: 0 1 auto;
   font-family: product-sans-regular, Helvetica, sans-serif !important;
@@ -853,6 +919,21 @@
   width: 24rem;
   height: 24rem;
 }
+@media (max-width: 999.98px) {
+  .introduction-block-image {
+    display: none !important;
+  }
+  /* With the image hidden, stop centering so the intro text's left edge
+     aligns vertically with the "UX work I shipped" header below. */
+  #introduction-block {
+    justify-content: flex-start !important;
+  }
+  #introduction-block > .col-7 {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+}
 div.rotate-text-1 {
   width: 100px;
   height: 100px;
@@ -1078,6 +1159,22 @@ a.page-link:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.25rem;
+}
+
+@media (max-width: 999.98px) {
+  .pcard-grid {
+    /* Stack vertically, keep each card at its previous width
+       (not full container width), aligned to the left. */
+    grid-template-columns: minmax(0, 22rem);
+    justify-content: start;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 999.98px) {
+  .pcard-grid {
+    /* Two cards per row in this range. */
+    grid-template-columns: repeat(2, minmax(0, 22rem));
+  }
 }
 
 .pcard-link {
